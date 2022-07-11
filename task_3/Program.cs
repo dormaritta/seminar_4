@@ -13,3 +13,16 @@ for (int i = 2; i <= num; i++)
 }
 
 Console.WriteLine(factorial);
+
+/* Функция */
+
+int Factorial (int num)
+{
+    for (int i = 2; i <= num; i++)
+    {
+        factorial *= i;
+    }
+    return factorial;
+}
+
+Console.WriteLine(Factorial(num));
